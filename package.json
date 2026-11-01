@@ -1,0 +1,15 @@
+{
+  "name": "cursor-best-practice-node-react",
+  "version": "1.0.0",
+  "description": "Node + React demo for cursor pagination best practices in a real-time feed scenario",
+  "type": "module",
+  "scripts": {
+    "server": "node src/server.js",
+    "client": "node src/index.js",
+    "start": "npm run server"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
